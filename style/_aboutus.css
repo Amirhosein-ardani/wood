@@ -1,0 +1,60 @@
+.about{
+     background-color:var(--white);
+}
+.about .hero .logo{
+     width: 100%;
+     height: fit-content;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: space-evenly;
+}
+.about .hero .logo h2{
+     font-family: var(--vb);
+     font-size: 100px;
+     color: var(--brown);
+
+}
+.about .hero .logo img{
+     width: 400px;
+     height: 390px;
+     background-color: var(--brown);
+     
+}
+.about aside{
+     width: 100%;
+     height: fit-content;
+     display: flex;
+     align-items: flex-start;
+     flex-direction: column;
+     justify-content: flex-start;
+}
+.about aside div{
+     width: 320px;
+     height: 90px;
+     border-radius: 30px;
+     margin-right: 20px;
+     margin-bottom:20px ;
+     background-color: var(--brown);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+}
+.about aside div h3{
+     font-family: var(--vb);
+     font-size: 40px;
+     color: var(--cream);
+}
+.about aside p{
+     width: 80%;
+     height: fit-content;
+     text-align: right;
+     align-self: center;
+     font-family: vazir-medium;
+     font-size: 39px;
+     color: var(--brown);
+     line-height: 70px;
+     
+
+}
